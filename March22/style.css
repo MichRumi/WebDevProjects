@@ -1,0 +1,202 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #25262d;
+    color: white;
+    margin: 100px 100px;
+}
+
+
+h1 {
+    font-weight: 600;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    column-span: all;
+}
+
+h1:hover {
+    color: orange;
+}
+
+h2:hover {
+    color: orange;
+}
+
+h3:hover {
+    color: orange;
+}
+
+p:hover {
+    color: green;
+}
+
+blockquote:hover {
+    color: orange;
+}
+
+ul:hover {
+    color: green;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    column-span: all;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+ul {
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 30px;
+    color: orange;
+
+}
+
+p {
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 30px;
+}
+
+.p1 {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 30px;
+}
+
+.p2 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 40px;
+}
+
+blockquote {
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+em {
+    color: orange;
+    font-style: normal;
+    font-weight: 450;
+}
+
+.header-bkg {
+    background-image:url(assets/TAGR-IMG1.png);
+    background-color: aqua;
+}
+
+.back-col-wh {
+    background-color:white;
+    font-size: 1.2em;
+    color: black;
+
+}
+
+footer {
+    text-align: center;
+    text-emphasis: small;
+    color: orange;
+}
+
+.foot {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.three-col {
+    column-count: 3;
+    column-gap: 40px;
+    column-width: 100px;
+    /* column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: orange; */
+    column-rule: 1px solid orange;    
+}
+
+.three-col p:nth-child(1) {
+    margin-top: 0;
+}
+
+/* button {
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+} */
+
+a:hover {
+    background-color: red;
+}
+
+a {
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid orange;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+    color: #25262d;
+  }
+  
+  .form-background {
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: orange;
+    border-style: solid;
+    background-color: none;
+    padding: 20px;
+    font-size: 20px;
+  }
